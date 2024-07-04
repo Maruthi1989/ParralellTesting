@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-04T15:00:07 IST" name="Suite" finished-at="2024-07-04T15:00:20 IST" duration-ms="12848">
+    <groups>
+    </groups>
+    <test started-at="2024-07-04T15:00:07 IST" name="ChromeTest" finished-at="2024-07-04T15:00:14 IST" duration-ms="7614">
+      <class name="parallel.ParallelTestingDemo">
+        <test-method is-config="true" signature="luanchBrowser(java.lang.String)[pri:0, instance:parallel.ParallelTestingDemo@5bf0d49]" started-at="2024-07-04T15:00:07 IST" name="luanchBrowser" finished-at="2024-07-04T15:00:14 IST" duration-ms="7446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchBrowser -->
+        <test-method signature="clickSeleniumOption()[pri:0, instance:parallel.ParallelTestingDemo@5bf0d49]" started-at="2024-07-04T15:00:14 IST" name="clickSeleniumOption" finished-at="2024-07-04T15:00:14 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSeleniumOption -->
+      </class> <!-- parallel.ParallelTestingDemo -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-07-04T15:00:07 IST" name="FirefoxTest" finished-at="2024-07-04T15:00:20 IST" duration-ms="12848">
+      <class name="parallel.ParallelTestingDemo">
+        <test-method is-config="true" signature="luanchBrowser(java.lang.String)[pri:0, instance:parallel.ParallelTestingDemo@6ed3ccb2]" started-at="2024-07-04T15:00:07 IST" name="luanchBrowser" finished-at="2024-07-04T15:00:20 IST" duration-ms="12751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- luanchBrowser -->
+        <test-method signature="clickSeleniumOption()[pri:0, instance:parallel.ParallelTestingDemo@6ed3ccb2]" started-at="2024-07-04T15:00:20 IST" name="clickSeleniumOption" finished-at="2024-07-04T15:00:20 IST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSeleniumOption -->
+      </class> <!-- parallel.ParallelTestingDemo -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
