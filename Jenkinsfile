@@ -14,6 +14,12 @@ pipeline
         bat "mvn clean"
     
          }
+
+           steps
+           {
+               echo "Run the tests"
+               bat "mvn test"
+           }
          
        }
     
