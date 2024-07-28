@@ -10,22 +10,20 @@ pipeline
         steps
         {
     
-        echo "Buidling the code"
-        bat "mvn clean"
-    
+          echo "Buidling the code"
+          bat "mvn clean"
          }
-
-           steps
-           {
-               echo "Run the tests"
-               bat "mvn test"
-           }
-         
        }
-    
+        stage(Test)
+        { 
+         steps
+         {
+         echo "Testing the code......."
+         bat "mvn test"
+         }   
+        }
       }
-    
-    
+
     }
     
 
